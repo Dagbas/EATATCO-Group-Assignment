@@ -1,0 +1,53 @@
+body{background-color: black}
+.carousel{padding:0}
+
+h1{font-family: Roboto;
+    align-content: center;
+    text-transform: uppercase;
+    color: white;
+    justify-content: center;
+}
+.Centerbutton{margin: 20px;
+    align-content: center;
+ }
+
+button{font-family:"Roboto";
+    text-transform: uppercase;
+    color: white;
+    border-color: red;
+    border: transparent;
+    background-color: red;
+}
+.Centerh{
+    font-family:"Roboto";
+    font-size:1.5rem;
+    text-transform: uppercase;
+    font-weight:900;
+
+
+
+
+}
+.CenterContent{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.HospitalityImage {
+    text-align: center;
+    image-orientation: initial;
+    background-color: transparent;
+}
+
+.FooterSticky{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
