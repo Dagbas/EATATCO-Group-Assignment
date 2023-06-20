@@ -63,6 +63,15 @@ header {
 }
 
 /*___________________________*/
+/*        CARD SECTION       */
+/*___________________________*/
+
+#card-section {
+    max-width: 1200px;
+    margin-top: 1rem;
+}
+
+/*___________________________*/
 /*         CARD LIST         */
 /*___________________________*/
 
@@ -74,7 +83,7 @@ header {
 /*           CARDS           */
 /*___________________________*/
 
-.card-img {
+#card-img__charleston {
     width: 325px;
     height: 225px;
     background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/eCKbdCkYTFe6abR9dDs5_Charleston 2.jpg');
@@ -84,11 +93,62 @@ header {
     overflow: hidden;
     transition: background-size 0.3s ease-out;
 }
+#card-img__waverly {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/hdaTgaVSmq3ta0x1u6Et_Co Sitting Area 1.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
+#card-img__park {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/LumPUWLWQzSKgL2lGTGM_Charlotte Interior 1.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
+#card-img__myrtle {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/g81tCLsATjKNNfuc5Qra_Myrtle Beach.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
+#card-img__raleigh {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/ATh86JRFSa6JtkH5W7vv_DSC03755.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
 
-.card-img:hover {
+#card-img__charleston:hover,
+#card-img__waverly:hover,
+#card-img__park:hover,
+#card-img__myrtle:hover,
+#card-img__raleigh:hover {
     background-size: 115%;
 }
 
+
+
+.overview-branding {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
 
 
 /*___________________________*/
