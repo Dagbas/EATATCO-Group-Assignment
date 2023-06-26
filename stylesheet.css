@@ -1,34 +1,59 @@
-body{background-color: black}
-.carousel{padding:0}
-
-h1{font-family: Roboto;
-    align-content: center;
-    text-transform: uppercase;
-    color: white;
-    justify-content: center;
+/* HEADER STYLING LERHON*/
+header {
+    position: absolute;
 }
-.Centerbutton{margin: 20px;
-    align-content: center;
- }
 
-button{font-family:"Roboto";
-    text-transform: uppercase;
-    color: white;
-    border-color: red;
-    border: transparent;
-    background-color: red;
+.main-nav {
+    color: #fff;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 1.1px;
+    background-color: #000;
 }
-.Centerh{
-    font-family:"Roboto";
-    font-size:1.5rem;
-    text-transform: uppercase;
-    font-weight:900;
 
+.nav-container {
+    vertical-align: middle;
+}
 
+.nav-link-list {
+    margin: 0;
+}
 
+.nav-item {
+    color: #fff;
+    font-weight: 100;
+}
+
+.logo {
+    width: 50px;
+    height: 21px;
+}
+
+.dropdown-list {
+    background-color: #e32526;
+    opacity: 70%;
+    border-radius: 0;
 
 }
+
+.dropdown-link {
+    font-size: 0.7em;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.dropdown-link:hover {
+    background-color: #e32526;
+    opacity: 80%;
+    color: #fff;
+}
+/* HEADER STYLING LERHON*/
+
+
+/*STYLING FOR CENTER TAGLINE*/
 .CenterContent{
+    box-sizing:border-box;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -40,14 +65,75 @@ button{font-family:"Roboto";
     flex-direction: column;
 }
 
-.HospitalityImage {
+.Centerfooddesc{
     text-align: center;
-    image-orientation: initial;
-    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    font-size-a;
 }
 
-.FooterSticky{
-    text-align: center;
-    background-color: black;
+.Centerh{
+    font-family Roboto;
+    font-weight: bold;
+    text-shadow: white;
+    font-style:normal;
+    text-align:center;
+    text-size-adjust 100%;
+    text-transform:uppercase;
     color: white;
+    text-align: center;
+
 }
+.carousel-inner {
+    text-align: center;
+    width: 100%;
+}
+/*Body Styling*/
+
+
+
+
+/*Tagline Button Styling*/
+.Centerp{text-align: center;
+color: white;}
+
+button{
+    font-family: "Roboto";
+    color: white;
+    background-color: #e32526;
+    border-color: #e32526;
+    border-radius: 2px;
+    padding: 0.5rem 1rem
+
+}
+/*HospitalityGroup*/
+
+.Bottomnav{
+    background-color: black;
+}
+.HospitalityImage{
+    text-align: center;
+}
+
+
+/*FOOTER STYLING*/
+.Footermenu{
+    color: #fff;
+    font-size: 0.9rem;
+    letter-spacing: 1.1px;
+    background-color: #000;
+}
+
+.site-nav-menu{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+}
+
+.Footerlinks{
+    text-decoration: none;
+    font-family: "Roboto";
+    color: white;
+    margin: 20px;
+  }
