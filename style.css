@@ -1,0 +1,571 @@
+/*___________________________*/
+/*           RESET           */
+/*___________________________*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+/*___________________________*/
+/*           NAVBAR          */
+/*___________________________*/
+
+header {
+    position: absolute;
+}
+
+.main-nav {
+    color: #fff;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 1.1px;
+    background-color: #000;
+}
+
+.nav-container {
+    vertical-align: middle;
+}
+
+.nav-link-list {
+    margin: 0;
+}
+
+.nav-item {
+    color: #fff;
+    font-weight: 100;
+}
+
+.logo {
+    width: 50px;
+    height: 21px;
+}
+
+.dropdown-list {
+    background-color: #e32526;
+    opacity: 90%;
+    border-radius: 0;
+
+}
+
+.dropdown-link {
+    font-size: 0.7em;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.dropdown-link:hover {
+    background-color: #e32526;
+    opacity: 60%;
+    color: #fff;
+}
+
+/*___________________________*/
+/*        CARD SECTION       */
+/*___________________________*/
+
+#card-section {
+    max-width: 1200px;
+    margin-top: 1rem;
+}
+
+/*___________________________*/
+/*         CARD LIST         */
+/*___________________________*/
+
+.card-list {
+    list-style-position: inside;
+    
+}
+
+/*___________________________*/
+/*           CARDS           */
+/*___________________________*/
+
+.marker::before {
+    content: "\02022";
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#card-img__charleston {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/eCKbdCkYTFe6abR9dDs5_Charleston 2.jpg');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    color: red;
+    transition: background-size 0.3s ease-out;
+}
+
+#card-img__waverly {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/hdaTgaVSmq3ta0x1u6Et_Co Sitting Area 1.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
+
+#card-img__park {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/LumPUWLWQzSKgL2lGTGM_Charlotte Interior 1.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
+
+#card-img__myrtle {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/g81tCLsATjKNNfuc5Qra_Myrtle Beach.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
+
+#card-img__raleigh {
+    width: 325px;
+    height: 225px;
+    background-image: url('https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/ATh86JRFSa6JtkH5W7vv_DSC03755.jpg?w=1200&fit=max&auto=compress,format');
+    background-size: 106%;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transition: background-size 0.3s ease-out;
+}
+
+#card-img__charleston:hover,
+#card-img__waverly:hover,
+#card-img__park:hover,
+#card-img__myrtle:hover,
+#card-img__raleigh:hover {
+    background-size: 115%;
+}
+
+.overview-branding {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+
+
+/*___________________________*/
+/*        HERO SECTION       */
+/*___________________________*/
+
+.hero-container {
+    position: relative;
+}
+
+#carousel-container {
+    height: 100%;
+}
+
+/* IMG POSITIONING */
+.carousel-img {
+    object-fit: cover;
+}
+
+.alt-img-position {
+    margin-top: -12%;
+}
+
+.img-position {
+    margin-top: -10%;
+}
+
+.page-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 11.9vw;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    color: #fff;
+}
+
+.page-header-alt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 8vw;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    color: #fff;
+    /* width: 100%; */
+}
+
+.down-arrow-icon {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    z-index: 1;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/* BACKGROUND OVERLAY */
+
+.bg-overlay {
+    filter: brightness(50%);
+}
+
+/* HEADER */
+
+.hero-header {
+    z-index: 1;
+}
+
+/*___________________________*/
+/*   BUSINESS INFO SECTION   */
+/*___________________________*/
+
+#business-info {
+    padding: 5rem 0 3.5rem 0;
+}
+
+/* HEADER */
+
+.business-info-header {
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.business-info-header::after {
+    content:"";
+    display: block;
+    width: 120px;
+    height: 12px;
+    margin: 15px auto 0;
+    background-image: url('http://getbento.imgix.net/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/85407chopsticksdrk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* ADDDRESS */
+
+.address-container {
+    margin-bottom: 18px;
+}
+
+.address-container>* {
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.address-text{
+    color: #000;
+}
+
+.address-text:visited {
+    color: #000;
+}
+
+/* OPERATION HOURS */
+
+.operation-hours {
+    font-size: 1.125rem;
+    margin-bottom: 18px;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media {
+    margin-bottom: 18px;
+}
+
+/* lOCATION DESCRIPTION */
+
+.location-description {
+    margin-bottom: 18px;
+}
+
+.description {
+    margin-bottom: 18px;
+    font-size: 1.125rem;
+}
+
+/* PDF BUTTON */
+
+.view-pdf {
+    margin-bottom: 18px;
+}
+
+.view-pdf-btn {
+    background-color: #e32526;
+    color: #fff;
+    padding: 9px 52px;
+    margin: 18px;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+}
+
+.view-pdf-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* SUBSCRIBE FORM */
+
+.email-label label {
+    display: block;
+    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.email-input input {
+    width: 350px;
+    height: 32px;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid #ABB0B2;
+}
+
+.subscribe-btn {
+    padding: 3px 18px;
+    background-color: #aaa;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.subscribe-btn:hover {
+    background-color: #777;
+    color: #fff;
+}
+
+/*___________________________*/
+/*    GOOGLE MAPS SECTION    */
+/*___________________________*/
+
+.google-maps {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.bg-img-container {
+    width: 100%;
+}
+
+.map-bg-img {
+    position: relative;
+    z-index: -1;
+    width: 120%;
+    margin: -25% 0 0 -3%;
+    filter: grayscale(100%);
+    opacity: 50%;
+}
+
+.maps-container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    z-index: 1;
+}
+
+.map-logo {
+    display: block;
+    width: 175px;
+    margin-bottom: 3rem;
+}
+
+.directions-btn {
+    width: 200px;
+    padding: 0.5rem 2rem;
+    background-color: #e32526;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+/*___________________________*/
+/*       MENU SECTION        */
+/*___________________________*/
+
+.container, .container-lg, .container-xl, .container-xxl {
+    max-width: 1010px;
+}
+
+/* MENU SECTION */
+
+.menu-section {
+    font-family: 'Roboto';
+}
+
+/* MENU BUTTONS */
+
+#active-menu {
+    background-color: #e32526;
+}
+
+#active-menu:hover {
+    background-color: #d31b1c;
+}
+
+/* MENU HEADER */
+
+.menu-header {
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.sub-header {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: -40px 0 50px;
+}
+
+/* MENU BUTTON LIST */
+
+.menu-button-container {
+    margin-bottom: 36px;
+}
+
+.menu-btn {
+    background-color: #000;
+    border-radius: 0 0 3px 3px;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+
+.menu-btn:hover {
+    background-color: #e32526;
+}
+
+/* DOWNLOAD BUTTON */
+
+.download-pdf-btn {
+    background-color: #e32526;
+    color: #fff;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+}
+
+.download-pdf-btn:hover {
+    background-color: #000;
+}
+
+/* NOTICE */
+
+.notice {
+    font-size: 1.1rem;
+    margin-bottom: 7%;
+}
+
+/* MENU ITEM LIST */
+
+.menu-item-category,
+.menu-item-category-alt {
+    font-size: 32.5px;
+    margin-bottom: 2.5rem;
+    font-weight: 900;
+}
+
+.menu-item-category::before {
+    content: "";
+    display: block;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #e32526;
+    width: 50%;
+}
+
+.menu-item-category-alt-2 {
+    font-size: 32.5px;
+    font-weight: 900;
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+}
+
+.menu-item__header {
+    font-size: 1.39rem;
+    font-weight: 700;
+    font-style:italic;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.menu-item__desc {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+    font-style: italic;
+}
+
+.menu-item__price {
+    font-size: 1.125rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.menu-item__extra,
+.menu-item__extra span {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+    font-style: italic;
+}
+
+/* FOOD IMAGE CAROUSEL */
+
+.food-img-carousel {
+   margin: 1rem 0 2.5rem 0;
+}
+
+.food-img-carousel img {
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+/* COLLECTED BRAND */
+
+.bottom-branding {
+    padding: 3.5rem;
+    background-color: #000;
+}
+
+.collected-brand {
+    width: 20rem;
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 1.5rem;
+}
+
+.footer-list {
+    color: #fff;
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    background-color: #000;
+}

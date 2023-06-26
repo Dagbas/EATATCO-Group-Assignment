@@ -10,57 +10,46 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-<header class="SiteHeader">
-    <div class="TopPage">
-        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
-            <div class="Nav-logo">
-                <img src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/LesCURaLS9qicjySCjAH_CO_logo.png" width="150"></div>
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <ul class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Locations & Menu
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Overview</a></li>
-                                <li><a class="dropdown-item" href="#">Charlotte-Park Road</a></li>
-                                <li><a class="dropdown-item" href="#">Charlotte-Waverly</a></li>
-                                <li><a class="dropdown-item" href="#">Charlestown</a></li>
-                                <li><a class="dropdown-item" href="#">Myrtle Beach</a></li>
-                                <li><a class="dropdown-item" href="#">Raleigh</a></li>
-                            </ul>
-                        </ul>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gift Cards</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Press</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Order Online
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Charlotte-Park Road</a></li>
-                                <li><a class="dropdown-item" href="#">Charlotte-Waverly</a></li>
-                                <li><a class="dropdown-item" href="#">Charlestown</a></li>
-                                <li><a class="dropdown-item" href="#">Myrtle Beach</a></li>
-                                <li><a class="dropdown-item" href="#">Raleigh</a></li>
-                            </ul>
-                        </li>
+<header class="sticky-sm-top">
+    <nav class="main-nav navbar navbar-expand-md">
+        <div class="nav-container container-fluid">
+            <ul class="nav-link-list list-unstyled">
+                <li class="nav-item">
+                    <a href="#" class="navbar-brand"><img src="assets/img/co-logo.png" alt="CO logo" class="logo"></a>
+                </li>
+            </ul>
+            <ul class="nav-link-list list-unstyled d-flex column-gap-4">
+                <li class="nav-item text-uppercase dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        locations & menus
+                    </a>
+                    <ul class="dropdown-list dropdown-menu">
+                        <li><a href="overview.html" class="dropdown-link dropdown-item">overview</a></li>
+                        <li><a href="charleston.html" class="dropdown-link dropdown-item">charleston</a></li>
+                        <li><a href="waverly.html" class="dropdown-link dropdown-item">charlotte - waverly</a></li>
+                        <li><a href="park-road.html" class="dropdown-link dropdown-item">charlotte - park road</a></li>
+                        <li><a href="myrtle-beach.html" class="dropdown-link dropdown-item">myrtle beach</a></li>
+                        <li><a href="raleigh.html" class="dropdown-link dropdown-item">raleigh</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+                </li>
+                <li class="nav-item text-uppercase">about</li>
+                <li class="nav-item text-uppercase">gift cards</li>
+                <li class="nav-item text-uppercase">press</li>
+                <li class="nav-item text-uppercase dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        order online
+                    </a>
+                    <ul class="dropdown-list dropdown-menu">
+                        <li><a href="#" class="dropdown-link dropdown-item text-wrap">charlotte - park road</a></li>
+                        <li><a href="#" class="dropdown-link dropdown-item text-wrap">charlotte - waverly</a></li>
+                        <li><a href="#" class="dropdown-link dropdown-item">charleston</a></li>
+                        <li><a href="#" class="dropdown-link dropdown-item">myrtle beach</a></li>
+                        <li><a href="#" class="dropdown-link dropdown-item">raleigh</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 <div class="container-fluid carousel">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
