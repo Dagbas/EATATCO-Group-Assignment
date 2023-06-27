@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+
+
+
+
+
+nav img{
+    position: relative;
+    width:40px;
+    height:20px;
+}
+
+
+/*.c-item{
+    height: 480px;
+}*/
+.c-img{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    filter:brightness(1);
+}
+
+/*Footer style for about page */
+
+footer{
+    background-color: rgb(25, 27, 27);
+    margin: none;
+    padding: none;
+    text-align: center;
+    
+
+}
+/* footer ul list display format*/
+footer ul li{
+    display:inline-block;
+    text-decoration: underline;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 10%;
+}
+
+.slide {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    z-index: 9;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .header-title{
+    font-size: 150px;
+    font-weight: bold;
+    margin-bottom: 120px;
+  }
+  .section {
+    position: relative;
+}
