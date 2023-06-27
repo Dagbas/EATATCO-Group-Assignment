@@ -4,64 +4,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EATCO Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="pressStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
+    
 </head>
-<header class="SiteHeader">
-    <div class="TopPage">
-        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+<header class="sticky-sm-top">
+    <nav class="mainNav navbar navbar-expand-sm">
+        <div class="nav-container container-fluid">
             <div class="Nav-logo">
-                <a href="index.html"><img src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/LesCURaLS9qicjySCjAH_CO_logo.png" width="150"></a>
+                <a href="index.html"><img src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/LesCURaLS9qicjySCjAH_CO_logo.png" class="logo"></a>
             </div>
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <ul class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Locations & Menu
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Overview</a></li>
-                                <li><a class="dropdown-item" href="#">Charlotte-Park Road</a></li>
-                                <li><a class="dropdown-item" href="#">Charlotte-Waverly</a></li>
-                                <li><a class="dropdown-item" href="#">Charlestown</a></li>
-                                <li><a class="dropdown-item" href="#">Myrtle Beach</a></li>
-                                <li><a class="dropdown-item" href="#">Raleigh</a></li>
-                            </ul>
-                        </ul>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gift Cards</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="press.html">Press</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Order Online
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Charlotte-Park Road</a></li>
-                                <li><a class="dropdown-item" href="#">Charlotte-Waverly</a></li>
-                                <li><a class="dropdown-item" href="#">Charlestown</a></li>
-                                <li><a class="dropdown-item" href="#">Myrtle Beach</a></li>
-                                <li><a class="dropdown-item" href="#">Raleigh</a></li>
-                            </ul>
-                        </li>
+            <ul class="nav-link-list list-unstyled d-flex column-gap-4">
+                <li class="nav-item text-uppercase dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        locations & menus
+                    </a>
+                    <ul class="dropdown-list dropdown-menu">
+                        <li><a href="overview.html" class="dropdown-link dropdown-item">overview</a></li>
+                        <li><a href="charleston.html" class="dropdown-link dropdown-item">charleston</a></li>
+                        <li><a href="waverly.html" class="dropdown-link dropdown-item">charlotte-waverly</a></li>
+                        <li><a href="park-road.html" class="dropdown-link dropdown-item">charlotte-park road</a></li>
+                        <li><a href="myrtle-beach.html" class="dropdown-link dropdown-item">myrtle beach</a></li>
+                        <li><a href="raleigh.html" class="dropdown-link dropdown-item">raleigh</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+                </li>
+                <li class="nav-item text-uppercase"><a href="#">about</a></li>
+                <li class="nav-item text-uppercase"><a href="">gift cards</a></li>
+                <li class="nav-item text-uppercase active"><a href="press.html">press</a></li>
+                <li class="nav-item text-uppercase"><a href="#">order online</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
 <div class="container-fluid carousel">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -112,17 +88,77 @@
     </div>
 </div>
 <div class="container-sm">
-    <div class="CenterContent">
+    <div class="centerContent">
         <h1 class="heading">Press</h1>
     </div>
 </div>
 <div class="container">
-    <div class="HospitalityImage">
+    </br>
+    <h2>PRESS</h2>
+    </br>
+    <div class="pressLinks row features my-3">
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/3470DSC_0360_copy.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5" alt="an upscale restaurant">
+            <h2>THIS IS RALEIGH</h2>
+            <p>15 FUN DATE IDEAS FOR NORTH HILLS </br>(MIDTOWN RALEIGH)</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/94367Pad_Thai.jpg?w=1200&fit=max&auto=compress,format" alt="a colorful plate of rice and noodles">
+            <h2>YELP</h2>
+            <p>ASIAN EATS IN CHARLESTON</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/43917Co_Restaurant_Atlanta-2_1.jpg?w=1200&fit=max&auto=compress,format" alt="an upscale restaurant and bar">
+            <h2>POST AND COURIER</h2>
+            <p>ASIAN FUSION RESTAURANT SET TO TAKE LONG-VACANT SPACE IN FOREST ACRES</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/67589tofu_spring_rolls.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5" alt="spring rolls with peanut sauce">
+            <h2>YELP</h2>
+            <p>VEGAN FRIENDLY IN CHARLESTON</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/901CO_Clt_2020-68.jpg?w=1200&fit=max&auto=compress,format" alt="poke on top of a sushi roll">
+            <h2>SCOOP CHARLOTTE</h2>
+            <p>BEST TAKEOUT SUSHI IN CHARLOTTE | SCOOP</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/press_thumbnail23134.jpeg?w=1200&fit=max&auto=compress,format" alt="a sushi roll closeup">
+            <h2>HOLY CITY SINNER</h2>
+            <p>CO CELEBRATES 8TH BIRTHDAY BY OFFERING SUSHI AT $8 ON JUNE 11TH</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/73086malaysian_wings.jpg?w=1200&fit=max&auto=compress,format" alt="a plate of orange food">
+            <h2>YELP</h2>
+            <p>THE HAPPIEST HOURS ON EARTH </br>SAVANNAH - SAVANNAH</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/127CrabRangoon.png?w=1200&fit=max&auto=compress,format" alt="a white plate with tan dumplings">
+            <h2>CHARLESTON CITY PAPER</h2>
+            <p>WINTER 2020 RESTAURANT WEEK KICKS OFF THURS. JAN 9: HERE ARE YOUR BEST BETS</p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/59515o.jpg?w=1200&fit=max&auto=compress,format" alt="a colorful sushi roll">
+            <h2>HOODLINE</h2>
+            <p>EXPLORE THE 3 TOP SPOTS IN CHARLOTTE'S FREEDOM PARK NEIGHBORHOOD</p>
+        </div>
+        <div class="" id="lastInList">
+            <img class="img-fluid" src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/54516tofu_spring_rolls.jpg?w=1200&fit=max&auto=compress,format" alt="spring rolls with peanut sauce">
+            <h2>YOUNG HUNGRY TRAVEL</h2>
+            <p>A VEGAN RESTAURANT GUIDE TO SAVANNAH, GEORGIA</p>
+        </div>
+    </div>
+    <div class="loadMore">
+        <button id="loadMorePress">LOAD MORE</button>
+    </div>
+</div>
+<div class="container-fluid hospitalityHolder">
+    <div class="hospitalityImage">
         <a href="https://www.collected.com"><img src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/56113Asset_1.png?w=1200&fit=max&auto=compress,format|resize(786)" width="300"></a>
     </div>
 </div>
-<div class="FooterSticky">
-    <footer class="footer mt-auto py-3">
+<div class="sticky-bottom">
+    <footer class="footerSticky">
         <nav class="site-nav">
             <ul class="site-nav-menu">
                 <li>
